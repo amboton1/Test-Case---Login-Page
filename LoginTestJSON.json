@@ -1,0 +1,45 @@
+﻿{
+  "CreationDate": "2018-3-18",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://localhost/login/login/",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": "123456"
+    },
+    {
+      "Command": "click",
+      "Target": "id=username",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=username",
+      "Value": "ammar"
+    },
+    {
+      "Command": "click",
+      "Target": "id=password",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": "bota1"
+    },
+    {
+      "Command": "click",
+      "Target": "css=body > center:nth-child(2) > input:nth-child(5)",
+      "Value": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": ""
+    }
+  ]
+}
