@@ -1,0 +1,40 @@
+﻿{
+  "CreationDate": "2018-3-18",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://localhost/login/login/",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=username",
+      "Value": "ammar@net.com"
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": "123456"
+    },
+    {
+      "Command": "click",
+      "Target": "id=username",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=username",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=body > center:nth-child(2) > input:nth-child(5)",
+      "Value": ""
+    }
+  ]
+}
